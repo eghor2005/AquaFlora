@@ -204,23 +204,3 @@ If you only need one pump:
 ## 📝 License
 
 This project is open-source and available under the MIT License.
-
-## 🤝 Contributing
-
-Contributions are welcome! Please:
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Open a Pull Request
-
-## 📧 Contact
-
-For questions or suggestions, please open an issue on GitHub.
-
----
-
-**Happy Gardening! 🌱**
-```
-
-This README provides comprehensive documentation including hardware setup, usage instructions, customization options, and troubleshooting guides - all in professional English suitable for GitHub.
