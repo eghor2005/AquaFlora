@@ -3,7 +3,7 @@ Here's a detailed README for your Arduino-based automatic watering system projec
 
 # AquaFlora - Smart Automatic Watering System
 
-An Arduino-based automatic plant watering system with a graphical TFT display, potentiometer-controlled timing, and dual relay outputs for water pumps or solenoid valves.
+An Arduino-based automatic plant watering system with a graphical TFT display, potentiometer-controlled timing, and dual SSR relay outputs for water pumps.
 
 ![The finished product](aquaflora/photos/1000013501.jpg)
 ## 📋 Overview
@@ -24,7 +24,7 @@ AquaFlora is an intelligent watering system that allows you to precisely control
   - Visual feedback via progress bar
 
 - **Dual Relay Outputs**
-  - Control two water pumps or solenoid valves simultaneously
+  - Control two water pumps simultaneously
   - LED indicators (if connected) for visual feedback
   - Automatic shutoff after watering completes
 
@@ -41,8 +41,8 @@ AquaFlora is an intelligent watering system that allows you to precisely control
 - ST7735-based TFT display (128x160 pixels)
 - 10kΩ potentiometer
 - Push button (Normally Open)
-- 2x Relay modules (5V compatible)
-- 2x Water pumps or solenoid valves (optional)
+- 2x SSR Relay modules
+- 2x Water pumps
 - Connecting wires
 - Power supply (appropriate for your pumps/valves)
 
@@ -166,7 +166,7 @@ If you only need one pump:
 ## ⚠️ Important Notes
 
 1. **Power Considerations**
-   - Relays require separate power for pumps/valves
+   - Common Relays (NOT SSR) require separate power for pumps/valves
    - Do not power pumps directly from Arduino
    - Use appropriate flyback diodes for inductive loads
 
