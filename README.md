@@ -181,25 +181,6 @@ If you only need one pump:
      tft.initR(INITR_BLACKTAB);  // or INITR_REDTAB
      ```
 
-## 🐛 Troubleshooting
-
-| Problem | Solution |
-|---------|----------|
-| Display shows garbage | Check SPI connections, verify library installation |
-| Button doesn't respond | Check pullup configuration, try different pin |
-| No relay activation | Verify 5V supply to relay module, check IN pins |
-| Incorrect timing | Adjust `map()` function range, check potentiometer wiring |
-| Display flickering | Normal during updates, reduce refresh rate if needed |
-
-## 📈 Future Improvements
-
-- [ ] Add RTC module for scheduled watering
-- [ ] Include soil moisture sensor feedback
-- [ ] Add EEPROM storage for preset durations
-- [ ] Implement pump test mode
-- [ ] Add buzzer for audible notifications
-- [ ] Create menu system for multiple presets
-- [ ] Add manual pump control option
 
 ## 📝 License
 
